@@ -21,7 +21,7 @@ def bork(bot, update):
     bot.send_photo(chat_id=chat_id, photo=url)
 
 def main():
-    updater = Updater('YOUR_TOKEN')
+    updater = Updater('941843799:AAH_IkDvzX310eIS-zzv5or0ZVMLRKpdhHo')
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('bork',bork))
     updater.start_polling()
